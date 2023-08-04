@@ -354,3 +354,57 @@ iframe{
 #Innerbody{
   transition: 0.2s;
 }
+
+@media screen and (max-width: 1024px) {
+  #videoContainer {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  
+  .video-frame {
+    width: 100%;
+  }
+
+  #container-left {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #description-container {
+    height: auto;
+    max-height: none;
+    overflow: visible;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #left-container-side-bar {
+    transform: translateX(-100%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-bar {
+    padding: 5px 10px;
+  }
+  
+  .search-bar {
+    width: 60%;
+  }
+  
+  .mick {
+    display: none;
+  }
+
+  .video-card-details {
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  .Channel-details-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}
+
