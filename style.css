@@ -268,3 +268,15 @@ body {
   font-weight: 500;
   margin: 0; /* Remove default margin */
 }
+
+#user-dp{
+  width: 80%;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 50%;
+}
+#user-dp img{
+  height: 25px !important;
+  width: 25px !important;
+  object-fit: cover !important;
+}
